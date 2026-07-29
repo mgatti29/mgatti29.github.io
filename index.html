@@ -1,4 +1,131 @@
----
-layout: home
-author_profile: true
----
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Marco Gatti is a cosmologist at ICE-CSIC working on galaxy surveys, weak lensing, CMB secondary anisotropies, higher-order statistics, and simulation-based inference.">
+  <meta name="author" content="Marco Gatti">
+  <title>Marco Gatti | Cosmology</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script defer src="assets/js/site.js"></script>
+
+  <style>
+    .profile-image {
+      display: block;
+      width: 100%;
+      height: auto;
+      aspect-ratio: 4 / 5;
+      object-fit: cover;
+      border: 1px solid var(--line);
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-title" href="index.html">Marco Gatti</a>
+    <button class="menu-button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+      <a href="#about">About me</a>
+      <a href="research.html">Research</a>
+      <a href="opportunities.html">Job opportunities</a>
+      <a href="assets/cv/Marco_Gatti_CV.pdf">CV</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <div class="intro-text">
+        <p class="position">Ramón y Cajal Fellow at ICE-CSIC</p>
+        <h1>Marco Gatti</h1>
+        <p class="lead">
+          I am an observational cosmologist working on galaxy surveys, weak gravitational lensing,
+          CMB secondary anisotropies, higher-order statistics, and simulation-based inference.
+        </p>
+        <p>
+          My work connects survey data products and systematics control with forward modelling
+          and cosmological inference, with current activities in DES, Euclid, and SPT.
+        </p>
+        <p class="links">
+          <a href="research.html">Research</a>
+          <a href="assets/cv/Marco_Gatti_CV.pdf">CV</a>
+          <a href="https://ui.adsabs.harvard.edu/search/filter_database_fq_database=AND&amp;filter_database_fq_database=database%3A%22astronomy%22&amp;fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&amp;fq_database=(database%3A%22astronomy%22)&amp;q=author%3A%22Gatti%2C%20M.%22&amp;sort=date%20desc%2C%20bibcode%20desc&amp;p_=0">NASA ADS</a>
+          <a href="https://github.com/mgatti29">GitHub</a>
+        </p>
+      </div>
+      <div class="portrait-wrap">
+        <img class="profile-image" src="assets/images/profile.jpg" alt="Portrait of Marco Gatti">
+      </div>
+    </section>
+
+    <section class="content-section opportunity-section">
+      <div class="section-label">Job opportunities</div>
+      <div class="section-body">
+        <h2>PhD and postdoctoral positions</h2>
+        <p>Current group openings and relevant external fellowship routes are collected on the opportunities page.</p>
+        <p><a href="opportunities.html">View opportunities</a></p>
+      </div>
+    </section>
+
+    <section id="about" class="content-section">
+      <div class="section-label">About me</div>
+      <div class="section-body">
+        <p>
+          I am an observational cosmologist working across the full weak-lensing analysis chain,
+          from the construction and calibration of survey data products to cosmological inference.
+          This includes redshift calibration, shear catalogues, mass maps, and systematic-error tests.
+        </p>
+        <p>
+          I also develop higher-order statistics and simulation-based inference methods to extract
+          information beyond standard two-point analyses, and I combine galaxy weak lensing with
+          CMB lensing and the thermal Sunyaev–Zel’dovich effect.
+        </p>
+        <p>
+          I am based at the <a href="https://www.ice.csic.es/">Institute of Space Sciences (ICE-CSIC)</a>
+          in Barcelona and am part of the
+          <a href="https://www.ice.csic.es/about-us/organisation?view=article&id=600&catid=2">ICE-CSIC Cosmology Group</a>.
+        </p>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <div class="section-label">Research</div>
+      <div class="section-body research-summary">
+        <article>
+          <h3>Weak-lensing catalogues, mass maps, and redshift calibration</h3>
+          <p>
+            Understanding how weak-lensing measurements are built, calibrated, and validated,
+            from galaxy redshifts and shear catalogues to mass-map reconstruction.
+          </p>
+        </article>
+        <article>
+          <h3>Weak-lensing inference beyond two-point statistics</h3>
+          <p>
+            Higher-order statistics, learned summaries, and simulation-based inference,
+            with a focus on robust cosmological analyses.
+          </p>
+        </article>
+        <article>
+          <h3>CMB lensing, tSZ, and baryonic physics</h3>
+          <p>
+            Combining galaxy weak lensing with CMB secondary anisotropies to probe matter,
+            gas, baryonic feedback, and cosmology across a broad range of scales and redshifts.
+          </p>
+        </article>
+        <p class="more"><a href="research.html">Research topics and selected publications</a></p>
+      </div>
+    </section>
+
+    <section id="contact" class="content-section">
+      <div class="section-label">Contact</div>
+      <div class="section-body contact-grid">
+        <div><p><strong>Marco Gatti</strong><br>Institute of Space Sciences (ICE-CSIC)<br>Barcelona, Spain</p></div>
+        <div><p><a href="mailto:mgatti@ice.csic.es">mgatti@ice.csic.es</a><br>
+          <a href="https://www.ice.csic.es/">Institute of Space Sciences</a><br>
+          <a href="https://www.ice.csic.es/about-us/organisation?view=article&amp;id=600&amp;catid=2">ICE-CSIC Cosmology Group</a></p></div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><span>© <span id="year"></span> Marco Gatti</span></footer>
+</body>
+</html>

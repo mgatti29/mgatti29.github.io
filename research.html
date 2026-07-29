@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Research topics and selected publications by Marco Gatti.">
+  <title>Research | Marco Gatti</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script defer src="assets/js/site.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-title" href="index.html">Marco Gatti</a>
+    <button class="menu-button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+      <a href="index.html#about">About me</a>
+      <a href="research.html" aria-current="page">Research</a>
+      <a href="opportunities.html">Job opportunities</a>
+      <a href="assets/cv/Marco_Gatti_CV.pdf">CV</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-intro compact-intro">
+      <p class="position">Research</p>
+      <h1>Research</h1>
+    </section>
+
+    <section class="publications-intro">
+      <h2>Publications</h2>
+      <p>A full list of publications can be found in <a href="https://ui.adsabs.harvard.edu/search/filter_database_fq_database=AND&amp;filter_database_fq_database=database%3A%22astronomy%22&amp;fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&amp;fq_database=(database%3A%22astronomy%22)&amp;q=author%3A%22Gatti%2C%20M.%22&amp;sort=date%20desc%2C%20bibcode%20desc&amp;p_=0">NASA ADS</a>.</p>
+    </section>
+
+    <section class="research-overview">
+      <h2>Research topics</h2>
+      <p>
+        I am an observational cosmologist. I like to understand the data I work with in detail,
+        including how they are reduced, calibrated, and turned into the measurements used for
+        cosmological inference. At the same time, I develop new statistical tools to analyse these
+        data in different ways and to stress-test our cosmological model.
+      </p>
+      <p>
+        I have extensive experience with weak gravitational lensing, which uses the small
+        distortions induced in the observed shapes of distant galaxies to trace the matter
+        distribution in the Universe, without relying directly on how galaxies trace that matter.
+        Through my work in the Dark Energy Survey and Euclid, I have contributed to all stages of
+        weak-lensing cosmological analyses. In particular, I have worked on redshift calibration,
+        shear-catalogue production, weak-lensing mass-map reconstruction, and the development of
+        new methods to extract cosmological information beyond standard two-point analyses, using
+        higher-order statistics and simulation-based inference.
+      </p>
+      <p>
+        I am also interested in complementary probes of large-scale structure, particularly CMB
+        lensing and the thermal Sunyaev–Zel’dovich effect. CMB lensing traces the integrated matter
+        distribution over a broad range of redshifts, while the thermal Sunyaev–Zel’dovich effect
+        probes the hot ionized gas in galaxy groups and clusters. On their own, and especially in
+        combination with galaxy weak lensing, these observables can improve cosmological
+        constraints, help identify systematic effects, and provide information about baryonic
+        feedback and the distribution of matter and gas across a wide range of scales and cosmic time.
+      </p>
+    </section>
+
+    <section>
+      <div class="topic-block">
+        <h2>Weak-lensing inference beyond two-point statistics</h2>
+        <p>
+          My work on higher-order weak-lensing statistics is motivated by the goal of making these
+          analyses as robust and mature as standard two-point approaches, while exploiting their
+          ability to capture more of the information contained in the fields and substantially
+          improve cosmological constraints. I began by developing theoretical models and
+          explicit-likelihood analyses for second- and third-order moments of weak-lensing mass maps,
+          and later moved toward simulation-based inference, which makes it possible to combine a
+          much broader range of non-Gaussian summaries.
+        </p>
+        <p>
+          I co-lead the team that developed the DES Year 3 simulation-based inference analyses,
+          combining moments, scattering transforms, wavelet phase harmonics, persistent homology,
+          and learned compression. We are now extending this programme to DES Y6/DECADE and Euclid
+          DR1. In parallel, I work on the tools needed to make these analyses reliable: data
+          compression, baryonic-feedback modelling, intrinsic alignments, source clustering,
+          interpretation of the summary statistics, and validation against observational and
+          astrophysical systematics.
+        </p>
+
+        <div class="topic-subsection">
+          <h3>Simulation-based inference</h3>
+          <div class="paper-list">
+            <article class="paper"><a class="paper-title" href="https://arxiv.org/abs/2607.17942">Comparing explicit likelihood and likelihood-free simulation-based inference for weak lensing cosmic shear</a><p class="paper-authors">Vinciguerra, Martinet, <strong>Gatti</strong> — arXiv:2607.17942 (2026)</p></article>
+            <article class="paper"><a class="paper-title" href="https://arxiv.org/abs/2405.10881">Dark Energy Survey Year 3 results: simulation-based cosmological inference with wavelet harmonics, scattering transforms, and moments of weak lensing mass maps II. Cosmological results</a><p class="paper-authors"><strong>Gatti</strong>, Campailla, Jeffrey et al. — Physical Review D (2025)</p></article>
+            <article class="paper"><a class="paper-title" href="https://arxiv.org/abs/2310.17557">Dark Energy Survey Year 3 results: simulation-based νwCDM inference with wavelet scattering and moments of weak lensing mass maps I — validation on simulations</a><p class="paper-authors"><strong>Gatti</strong>, Jeffrey, Whiteway et al. — Physical Review D (2024)</p></article>
+            <article class="paper"><a class="paper-title" href="https://arxiv.org/abs/2403.02314">Dark Energy Survey Year 3 results: likelihood-free, simulation-based wCDM inference with neural compression of weak-lensing map statistics</a><p class="paper-authors">Jeffrey, Whiteway, <strong>Gatti</strong> et al. — Monthly Notices of the Royal Astronomical Society (2024)</p></article>
+            <article class="paper"><a class="paper-title" href="https://arxiv.org/abs/2506.13439">Dark Energy Survey Year 3 results: wCDM cosmology from simulation-based inference with persistent homology on the sphere</a><p class="paper-authors">Prat, <strong>Gatti</strong>, Jeffrey et al. — Monthly Notices of the Royal Astronomical Society (2025)</p></article>
+          </div>
+        </div>
+
+        <div class="topic-subsection">
+          <h3>Higher-order analyses and systematics</h3>
+          <div class="paper-list">
+            <article class="paper"><a class="paper-title" href="https://arxiv.org/abs/2110.10141">Dark Energy Survey Year 3 results: cosmology with moments of weak lensing mass maps</a><p class="paper-authors"><strong>Gatti</strong>, Jain, Chang et al. — Physical Review D (2022)</p></article>
+            <article class="paper"><a class="paper-title" href="https://arxiv.org/abs/1911.05568">Dark Energy Survey Year 3 results: cosmology with moments of weak lensing mass maps — validation on simulations</a><p class="paper-authors"><strong>Gatti</strong>, Chang, Friedrich, Jain et al. — Monthly Notices of the Royal Astronomical Society (2020)</p></article>
+            <article class="paper"><a class="paper-title" href="https://arxiv.org/abs/2307.13860">Detection of the significant impact of source clustering on higher-order statistics with DES Year 3 weak gravitational lensing data</a><p class="paper-authors"><strong>Gatti</strong>, Jeffrey, Whiteway et al. — Monthly Notices of the Royal Astronomical Society: Letters (2024)</p></article>
+            <article class="paper"><a class="paper-title" href="https://arxiv.org/abs/2201.05227">Dark Energy Survey Year 3 Results: Three-point Shear and Mass Aperture Measurements</a><p class="paper-authors">Secco, Jarvis, Jain, Chang, <strong>Gatti</strong> et al. — Physical Review D (2022)</p></article>
+            <article class="paper"><a class="paper-title" href="https://arxiv.org/abs/2308.03863">Beyond the 3rd moment: A practical study of using lensing convergence CDFs for cosmology with DES Y3</a><p class="paper-authors">Anbajagane, Chang, Banerjee, Abel, <strong>Gatti</strong> et al. — Monthly Notices of the Royal Astronomical Society (2023)</p></article>
+            <article class="paper"><a class="paper-title" href="https://arxiv.org/abs/2110.10135">Dark Energy Survey Year 3 results: Cosmology with peaks using an emulator approach</a><p class="paper-authors">Zürcher, Fluri, Sgier, Kacprzak, <strong>Gatti</strong> et al. — Monthly Notices of the Royal Astronomical Society (2022)</p></article>
+            <article class="paper"><a class="paper-title" href="https://arxiv.org/abs/2510.04953">Euclid preparation: LXXXV. Toward a DR1 application of higher-order weak lensing statistics</a><p class="paper-authors">Euclid Collaboration; Vinciguerra, Bouchè et al. — Astronomy &amp; Astrophysics (2026)</p></article>
+            <article class="paper"><a class="paper-title" href="https://arxiv.org/abs/2310.02349">Primordial non-Gaussianities with weak lensing: Information on non-linear scales in the Ulagam full-sky simulations</a><p class="paper-authors">Anbajagane, Chang, Lee, <strong>Gatti</strong> — Journal of Cosmology and Astroparticle Physics (2024)</p></article>
+          </div>
+        </div>
+
+        <div class="topic-subsection">
+          <h3>Compression and learned summaries</h3>
+          <div class="paper-list">
+            <article class="paper"><a class="paper-title" href="https://arxiv.org/abs/2409.02102">Dimensionality Reduction Techniques for Statistical Inference in Cosmology</a><p class="paper-authors">Park, <strong>Gatti</strong>, Jain — Physical Review D (2024)</p></article>
+            <article class="paper"><a class="paper-title" href="https://arxiv.org/abs/2403.01368">Improving Convolutional Neural Networks for Cosmological Fields with Random Permutation</a><p class="paper-authors">Zhong, <strong>Gatti</strong>, Jain — Physical Review D (2024)</p></article>
+            <article class="paper"><a class="paper-title" href="https://arxiv.org/abs/2310.16316">Sum-of-Parts Models: Faithful Attributions for Groups of Features</a><p class="paper-authors">You, Qu, <strong>Gatti</strong>, Jain, Wong — ICLR (2024)</p></article>
+          </div>
+        </div>
+      </div>
+
+      <div class="topic-block">
+        <h2>Weak-lensing surveys, maps, and calibration</h2>
+        <p>
+          My work on weak-lensing surveys covers redshift calibration, shear catalogues, mass-map
+          reconstruction, and systematic-error testing. In DES, I developed clustering-redshift
+          methods, co-led the construction and validation of the Year 3 shear catalogue and mass
+          maps, and later led the combined DES Y3+DECADE mass map. Working directly on these data
+          products shapes how I design and validate the cosmological analyses that use them.
+        </p>
+
+        <div class="topic-subsection">
+          <h3>Shape catalogues and mass maps</h3>
+          <div class="paper-list">
+            <article class="paper"><a class="paper-title" href="https://arxiv.org/abs/2509.03798">DECADE+DES Y3 Weak Lensing Mass Map: A 13,000 deg² View of Cosmic Structure from 270 Million Galaxies</a><p class="paper-authors"><strong>Gatti</strong>, Anbajagane, Chang et al. — Physical Review D (2025)</p></article>
+            <article class="paper"><a class="paper-title" href="https://arxiv.org/abs/2105.13539">Dark Energy Survey Year 3 results: curved-sky weak lensing mass map reconstruction</a><p class="paper-authors">Jeffrey, <strong>Gatti</strong> et al. — Monthly Notices of the Royal Astronomical Society (2021)</p></article>
+            <article class="paper"><a class="paper-title" href="https://arxiv.org/abs/2105.14699">KarMMa — Kappa Reconstruction for Mass Mappings</a><p class="paper-authors">Fiedorowicz, Rozo, Boruah, Chang, <strong>Gatti</strong> — Monthly Notices of the Royal Astronomical Society (2022)</p></article>
+            <article class="paper"><a class="paper-title" href="https://arxiv.org/abs/2011.03408">Dark Energy Survey Year 3 Results: Weak Lensing Shape Catalogue</a><p class="paper-authors"><strong>Gatti</strong>, Sheldon et al. — Monthly Notices of the Royal Astronomical Society (2021)</p></article>
+          </div>
+        </div>
+
+        <div class="topic-subsection">
+          <h3>Redshift calibration</h3>
+          <div class="paper-list">
+            <article class="paper"><a class="paper-title" href="https://arxiv.org/abs/2209.05853">Dark Energy Survey Year 3 Results: Redshift Calibration of the MagLim Lens Sample using Self-Organizing Maps and Clustering Redshifts</a><p class="paper-authors">Giannini, Alarcon, <strong>Gatti</strong> et al. — Monthly Notices of the Royal Astronomical Society (2023)</p></article>
+            <article class="paper"><a class="paper-title" href="https://arxiv.org/abs/2012.12826">Dark Energy Survey Year 3 Results: Calibration of Lens Sample Redshift Distributions using Clustering Redshifts with BOSS/eBOSS</a><p class="paper-authors">Cawthon, Elvin-Poole, Porredon, Crocce, Giannini, <strong>Gatti</strong> et al. — Monthly Notices of the Royal Astronomical Society (2022)</p></article>
+            <article class="paper"><a class="paper-title" href="https://arxiv.org/abs/2012.08569">Dark Energy Survey Year 3 Results: Clustering Redshifts — Calibration of the Weak Lensing Source Redshift Distributions with redMaGiC and BOSS/eBOSS</a><p class="paper-authors"><strong>Gatti</strong>, Giannini et al. — Monthly Notices of the Royal Astronomical Society (2022)</p></article>
+            <article class="paper"><a class="paper-title" href="https://arxiv.org/abs/1709.00992">Dark Energy Survey Year 1 Results: Cross-Correlation Redshifts — Methods and Systematics Characterization</a><p class="paper-authors"><strong>Gatti</strong>, Vielzeuf, Davis et al. — Monthly Notices of the Royal Astronomical Society (2018)</p></article>
+            <article class="paper"><a class="paper-title" href="https://arxiv.org/abs/1712.07298">Dark Energy Survey Year 1 Results: calibration of redMaGiC redshift distributions in DES and SDSS from cross-correlations</a><p class="paper-authors">Cawthon, Davis, <strong>Gatti</strong> et al. — Monthly Notices of the Royal Astronomical Society (2018)</p></article>
+          </div>
+        </div>
+      </div>
+
+      <div class="topic-block">
+        <h2>CMB lensing, tSZ, and baryonic physics</h2>
+        <p>
+          I use CMB secondary anisotropies as complementary probes of large-scale structure.
+          CMB lensing traces the integrated matter distribution to higher redshift than galaxy
+          weak lensing, while the thermal Sunyaev–Zel’dovich effect traces the thermal pressure of
+          ionized gas in groups and clusters. Their cross-correlations with galaxy weak lensing
+          therefore extend the analysis across a wider range of redshifts, physical scales, and
+          halo masses, while helping to break parameter degeneracies and test observational
+          systematics, foreground contamination, and models of baryonic feedback.
+        </p>
+        <p>
+          My work includes cross-correlations of DES weak-lensing data with ACT and Planck
+          Compton-y maps, used to constrain halo pressure profiles and feedback models. I am also
+          developing map-level baryonification and forward-modelling tools to generate realistic
+          joint weak-lensing and tSZ mocks for simulation-based inference. I currently lead the
+          production of the South Pole Telescope five-year main-field tSZ map and am extending my
+          SBI framework to joint analyses of weak lensing, CMB lensing, and tSZ.
+        </p>
+
+        <div class="paper-list">
+          <article class="paper"><a class="paper-title" href="https://arxiv.org/abs/2510.13968">Constraining Power of Wavelet vs. Power Spectrum Statistics for CMB Lensing and Weak Lensing with Learned Binning</a><p class="paper-authors">Boone, Valogiannis, <strong>Gatti</strong>, Dvorkin — Journal of Cosmology and Astroparticle Physics (2026)</p></article>
+          <article class="paper"><a class="paper-title" href="https://arxiv.org/abs/2505.07949">Map-level baryonification: unified treatment of weak lensing two-point and higher-order statistics</a><p class="paper-authors">Zhou, <strong>Gatti</strong>, Anbajagane — Journal of Cosmology and Astroparticle Physics (2025)</p></article>
+          <article class="paper"><a class="paper-title" href="https://arxiv.org/abs/2108.01600">Cross-correlation of DES Year 3 lensing and ACT/Planck Sunyaev–Zel'dovich Effect measurements I: measurements, systematics tests, and feedback model constraints</a><p class="paper-authors"><strong>Gatti</strong>, Pandey et al. — Physical Review D (2022)</p></article>
+          <article class="paper"><a class="paper-title" href="https://arxiv.org/abs/2108.01601">Cross-correlation of DES Year 3 lensing and ACT/Planck Sunyaev–Zel'dovich Effect measurements II: Modeling and constraints on halo pressure profiles</a><p class="paper-authors">Pandey, <strong>Gatti</strong> et al. — Physical Review D (2022)</p></article>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><span>© <span id="year"></span> Marco Gatti</span></footer>
+</body>
+</html>
