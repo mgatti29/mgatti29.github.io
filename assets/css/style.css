@@ -130,6 +130,24 @@ h3 {
   font-size: 0.9rem;
 }
 
+.intro-logos {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem 2rem;
+  margin-top: 2.25rem;
+}
+
+.intro-logos img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
+
+.intro-logos .ice-logo { width: 330px; }
+.intro-logos .erc-logo { width: 230px; }
+
 .portrait-placeholder {
   width: 100%;
   aspect-ratio: 4 / 5;
@@ -278,6 +296,15 @@ ul { padding-left: 1.25rem; }
   }
 
   .portrait-wrap { max-width: 190px; }
+
+  .intro-logos {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .intro-logos .ice-logo { width: min(100%, 330px); }
+  .intro-logos .erc-logo { width: min(72%, 230px); }
 
   .updates {
     grid-template-columns: 1fr;
