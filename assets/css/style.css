@@ -53,7 +53,7 @@ main,
 
 .site-nav {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 1.25rem;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.84rem;
@@ -145,8 +145,8 @@ h3 {
   max-width: 100%;
 }
 
-.intro-logos .ice-logo { width: 525px; }
-.intro-logos .erc-logo { width: 233px; }
+.intro-logos .ice-logo { width: 440px; }
+.intro-logos .erc-logo { width: 195px; }
 
 .portrait-placeholder {
   width: 100%;
@@ -303,8 +303,8 @@ ul { padding-left: 1.25rem; }
     gap: 1.25rem;
   }
 
-  .intro-logos .ice-logo { width: min(100%, 525px); }
-  .intro-logos .erc-logo { width: min(85%, 233px); }
+  .intro-logos .ice-logo { width: min(100%, 440px); }
+  .intro-logos .erc-logo { width: min(72%, 195px); }
 
   .updates {
     grid-template-columns: 1fr;
